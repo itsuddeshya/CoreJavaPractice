@@ -7,7 +7,7 @@ public class comparableMain {
         Student s1 =new Student(12,"Raj");
         Student s2 =new Student(9,"Singh");
         Student s3 =new Student(43,"Pal");
-        Student s4 =new Student(21,"Uddeshya");
+        Student s4 =new Student(21,"Uddeshyaraj");
         List t = new ArrayList();
         t.add(s1);
         t.add(s2);
