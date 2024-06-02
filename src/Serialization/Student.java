@@ -2,8 +2,6 @@ package Serialization;
 
 import java.io.Serializable;
 
-
-
 public class Student implements Serializable {
     private int rollNo;
     transient  private String name;         //if we d not want var to serialise we use transiant variable
