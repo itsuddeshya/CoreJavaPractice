@@ -5,8 +5,8 @@ import java.io.*;
 
 public class FileWriterMain {
     public static void main(String[] args) throws IOException {
-        FileWriter fw = new FileWriter("C:\\Users\\uddes\\OneDrive\\Desktop\\JavaFile\\file1.txt",true);
-        fw.write(5);
+        FileWriter fw = new FileWriter("file1.txt",true);
+        fw.write(100);
         fw.write("\n");
         fw.write('R');
         fw.write("\n");
